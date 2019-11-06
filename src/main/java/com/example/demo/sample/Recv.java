@@ -5,6 +5,9 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
 
+/**
+ * @author Jony-Liu
+ */
 public class Recv {
 
     private final static String QUEUE_NAME = "q_test_01";

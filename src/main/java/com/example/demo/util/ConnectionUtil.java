@@ -3,6 +3,9 @@ package com.example.demo.util;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 
+/**
+ * @author Jony-Liu
+ */
 public class ConnectionUtil {
 
     public static Connection getConnection() throws Exception {

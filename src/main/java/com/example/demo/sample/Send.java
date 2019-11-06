@@ -4,6 +4,9 @@ import com.example.demo.util.ConnectionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 
+/**
+ * @author Jony-Liu
+ */
 public class Send {
 
     private final static String QUEUE_NAME = "q_test_01";
